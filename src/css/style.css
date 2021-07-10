@@ -1,0 +1,35 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+.scrollbar-hide {
+    -ms-overflow-style: none;
+  }
+
+#profile-img {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+#profile-div {
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+#greeting {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#my-name {
+    letter-spacing: .05em;
+}
+
+#social-links {
+    position: absolute;
+    bottom: .5%;
+    right: .5%; 
+}
