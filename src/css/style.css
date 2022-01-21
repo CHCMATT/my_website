@@ -28,8 +28,28 @@
     letter-spacing: .05em;
 }
 
+#my-username {
+    letter-spacing: .05em;
+    font-weight: bold;
+}
+
 #social-links {
     position: absolute;
     bottom: .5%;
     right: .5%; 
+}
+
+#toggle-lights {
+    position: absolute;
+    top: .5%;
+    right: .5%;
+    color: #000;
+    font-size: 1.5em;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+#social-icons {
+	font-size: 2em;
+	color: #000000;
 }
