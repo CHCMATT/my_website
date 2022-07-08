@@ -1,9 +1,10 @@
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
-  }
+}
+
 .scrollbar-hide {
     -ms-overflow-style: none;
-  }
+}
 
 #profile-img {
     position: relative;
@@ -36,20 +37,26 @@
 #social-links {
     position: absolute;
     bottom: .5%;
-    right: .5%; 
+    right: .5%;
 }
 
-#toggle-lights {
+#light-bulb-pos {
     position: absolute;
     top: .5%;
     right: .5%;
-    color: #000;
     font-size: 1.5em;
     padding-left: .5%;
     padding-right: .5%;
 }
 
 #social-icons {
-	font-size: 2em;
-	color: #000000;
+    font-size: 2em;
+}
+
+.has-light-bkg {
+    background-color: #57C5AC;
+}
+
+.has-dark-bkg {
+    background-color: #333333;
 }
