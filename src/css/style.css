@@ -36,8 +36,8 @@
 
 #social-links {
     position: absolute;
-    bottom: .5%;
-    right: .5%;
+    bottom: .75%;
+    right: .75%;
 }
 
 #light-bulb-pos {
@@ -45,8 +45,8 @@
     top: .75%;
     right: .75%;
     font-size: 1.5em;
-    padding-left: .5%;
-    padding-right: .5%;
+    padding-left: .75%;
+    padding-right: .75%;
 }
 
 #social-icons {
