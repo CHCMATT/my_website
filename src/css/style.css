@@ -36,17 +36,17 @@
 
 #social-links {
     position: absolute;
-    bottom: .75%;
-    right: .75%;
+    bottom: .5%;
+    right: .5%;
 }
 
 #light-bulb-pos {
     position: absolute;
-    top: .75%;
-    right: .75%;
+    top: .5%;
+    right: .5%;
     font-size: 1.5em;
-    padding-left: .75%;
-    padding-right: .75%;
+    padding-left: .5%;
+    padding-right: .5%;
 }
 
 #social-icons {
