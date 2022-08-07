@@ -40,7 +40,7 @@
     right: .5%;
 }
 
-#light-bulb-pos {
+#sun-moon-pos {
     position: absolute;
     top: .5%;
     right: .5%;
@@ -64,3 +64,6 @@
 .has-text-teal {
     color: #57C5AC;
 }
+
+#middle-container {
+    }
