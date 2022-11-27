@@ -1,6 +1,6 @@
 function getUserInput() {
-  console.log(document.getElementById('search_text').value);
-  return document.getElementById('search_text').value;
+  console.log(document.getElementById('search-text').value);
+  return document.getElementById('search-text').value;
 }
 
 function hideKeyboard() {
@@ -60,45 +60,45 @@ function searchGif(key_words) {
 }
 
 function highlightButton() {
-  document.getElementById('search_button').style.backgroundColor = 'rgb(22, 102, 95)';
+  document.getElementById('search-button').style.backgroundColor = 'rgb(22, 102, 95)';
 }
 
 function restoreButton() {
-  document.getElementById('search_button').style.backgroundColor = 'rgb(34, 150, 140)';
+  document.getElementById('search-button').style.backgroundColor = 'rgb(34, 150, 140)';
 }
 
 let is_touch = window.matchMedia('(pointer: coarse)').matches;
 
 if (!is_touch) {
-  document.getElementById('search_button').addEventListener('mouseover', function () {
+  document.getElementById('search-button').addEventListener('mouseover', function () {
     highlightButton();
   });
-  document.getElementById('search_button').addEventListener('mouseout', function() {
+  document.getElementById('search-button').addEventListener('mouseout', function() {
     restoreButton();
   });
 
-  document.getElementById('search_button').addEventListener('mouseup', function () {
+  document.getElementById('search-button').addEventListener('mouseup', function () {
     searchGif(getUserInput());
     });
 }
 else {
-  document.getElementById('search_button').addEventListener('touchstart', function () { 
+  document.getElementById('search-button').addEventListener('touchstart', function () { 
     highlightButton();
     });
-  document.getElementById('search_button').addEventListener('touchend', function () {
+  document.getElementById('search-button').addEventListener('touchend', function () {
     restoreButton();
     hideKeyboard();
     searchGif(getUserInput());
     });
 }
 
-document.getElementById('search_text').addEventListener('keydown', function(event) {
+document.getElementById('search-text').addEventListener('keydown', function(event) {
   if (event.key === 'Enter') {
     highlightButton();
   }
 });
 
-document.getElementById('search_text').addEventListener('keyup', function(event) {
+document.getElementById('search-text').addEventListener('keyup', function(event) {
   if (event.key === 'Enter') { 
     restoreButton();
     if (is_touch) hideKeyboard();

@@ -33,7 +33,7 @@ body {
   align-items: center;
 }
 
-.search_box {
+.search-box {
   position: sticky;
   position:-webkit-sticky;
   top: 0;
@@ -46,7 +46,7 @@ body {
   overflow: hidden;
 }
 
-#search_button {
+#search-button {
   background-color:rgb(22, 102, 95);
   color: white;
   border-color: black;
@@ -58,11 +58,11 @@ body {
   text-transform: uppercase;
 }
 
-#search_text:focus {
+#search-text:focus {
   outline-width: 0;
 }
 
-#search_text {
+#search-text {
   background-color:lightsteelblue;
   border-color: black;
   border-radius: 10px;
@@ -136,7 +136,7 @@ body {
     width: 16%;
   }
 
-  #search_text {
+  #search-text {
     background-size: 3%;
   }
 }
@@ -150,7 +150,7 @@ body {
     font-size: 120%;
   }
 
-  #search_text {
+  #search-text {
     background-size: 5%;
   }
 }
@@ -160,7 +160,7 @@ body {
     width: 30%;
   }
 
-  #search_text {
+  #search-text {
     background-size: 6%;
   }
 
@@ -174,7 +174,7 @@ body {
     width: 36%;
   }
 
-  #search_text {
+  #search-text {
     background-size: 7%;
   }
 
