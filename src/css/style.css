@@ -1,66 +1,70 @@
+* {
+  font-family : 'IBM Plex Mono';
+}
+
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .scrollbar-hide {
-    -ms-overflow-style: none;
+  -ms-overflow-style: none;
 }
 
 #profile-img {
-    position: relative;
-    display: block;
-    float: left;
+  position: relative;
+  display: block;
+  float: left;
 }
 
 #profile-div {
-    bottom: 0%;
-    left: 0%;
-    position: absolute;
+  bottom: 0%;
+  left: 0%;
+  position: absolute;
 }
 
 #greeting {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 #my-name {
-    letter-spacing: .05em;
+  letter-spacing: .05em;
 }
 
 #my-username {
-    letter-spacing: .05em;
-    font-weight: bold;
+  letter-spacing: .05em;
+  font-weight: bold;
 }
 
 #social-links {
-    position: absolute;
-    bottom: .5%;
-    right: .5%;
+  position: absolute;
+  bottom: .5%;
+  right: .5%;
 }
 
 #sun-moon-pos {
-    position: absolute;
-    top: .5%;
-    right: .5%;
-    font-size: 1.5em;
-    padding-left: .5%;
-    padding-right: .5%;
+  position: absolute;
+  top: .5%;
+  right: .5%;
+  font-size: 1.5em;
+  padding-left: .5%;
+  padding-right: .5%;
 }
 
 #social-icons {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .has-teal-bkg {
-    background-color: #57C5AC;
+  background-color: #57C5AC;
 }
 
 .has-dark-bkg {
-    background-color: #333333;
+  background-color: #333333;
 }
 
 .has-text-teal {
-    color: #57C5AC;
+  color: #57C5AC;
 }
