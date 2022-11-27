@@ -94,7 +94,7 @@ body {
 #gif > * {
   margin: 2%;
   padding: 0%;
-  border: .3vw solid white;
+  border: 2px solid rgb(22, 102, 95);
 }
 
 .giphy-logo {
