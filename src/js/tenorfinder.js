@@ -31,7 +31,7 @@ function pushToDOM(response) {
 
   console.time("GIFs Recovery");
   images.forEach(function (image) {
-    let src = image.media_formats.gif.url;
+    let src = image.media_formats.tinygif.url;
     let gif_temp = "\<img src='" + src + "' class='container-image' />";
     received_gifs.push(gif_temp);
   });
