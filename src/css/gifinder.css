@@ -97,8 +97,8 @@ body {
   border: 2px solid rgb(22, 102, 95);
 }
 
-.giphy-logo {
-  width: 8%;
+.powered-by-logo {
+  width: 4%;
   position: fixed;
   bottom: 0%;
   left: 0%;
@@ -106,7 +106,7 @@ body {
   margin-bottom: 1%;
 }
 
-.giphy-logo > * {
+.powered-by-logo > * {
   width: 100%;
 }
 
@@ -141,8 +141,8 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .giphy-logo {
-    width: 16%;
+  .powered-by-logo {
+    width: 8%;
   }
 
   #search_text {
@@ -151,8 +151,8 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
-  .giphy-logo {
-    width: 28%;
+  .powered-by-logo {
+    width: 14%;
   }
 
   #info > * {
@@ -165,8 +165,8 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
-  .giphy-logo {
-    width: 30%;
+  .powered-by-logo {
+    width: 15%;
   }
 
   #search_text {
@@ -179,8 +179,8 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
-  .giphy-logo {
-    width: 36%;
+  .powered-by-logo {
+    width: 18%;
   }
 
   #search_text {
