@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CHCMATT | GIFinder</title>
+	<link rel="shortcut icon" href="/src/img/favicon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link href="/src/css/bulma-tooltip.css" rel="stylesheet">
+	<link rel="stylesheet" href="/src/css/new.css">
+	<script src="/src/js/new.js"></script>
+	<script src="https://kit.fontawesome.com/be02d7a628.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+</head>
+
+<body class="scrollbar-hide">
+	<div class="container">
+		<div class="box" id="search_box">
+			<div class="columns">
+				<div class="column">
+					<a href="/"><button class="button is-info is-outlined has-tooltip-bottom" data-tooltip="Go Home"><i class="fa-solid fa-house"></i></button></a>
+					<a href="/tenorfinder"><button class="button is-info is-outlined has-tooltip-bottom" data-tooltip="Giphy"><i class="fa-solid fa-arrows-rotate"></i></button></a>
+				</div>
+				<div class="column is-half">
+					<div class="control has-icons-left">
+						<input class="input is-info" id="search_text" type="text" placeholder="Search for something...">
+						<span class="icon is-left">
+							<i class="fas fa-magnifying-glass"></i>
+						</span>
+					</div>
+				</div>
+				<div class="column">
+					<button class="button is-success" id="search_button">Search for GIF</button>
+				</div>
+			</div>
+		</div>
+		<div class="is-fullwidth">
+			<div id="gif">
+			</div>
+		</div>
+	</div>
+	<a id="powered-by-logo" href="https://giphy.com/" target="_blank">
+		<img src="/src/img/powered-by-giphy.png">
+	</a>
+	<script type="module" src="/src/js/new.js"></script>
+</body>
+
+</html>

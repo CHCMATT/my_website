@@ -32,7 +32,7 @@ function pushToDOM(response) {
   console.time("GIFs Recovery");
   images.forEach(function (image) {
     let src = image.images.fixed_height.url;
-    let gif_temp = "\<img src='" + src + "' class='container-image' />";
+    let gif_temp = "<img src='" + src + "' class='box' />";
     received_gifs.push(gif_temp);
   });
   console.timeEnd("GIFs Recovery");
