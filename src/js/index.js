@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async function () {
-    if (document.cookie == 'colormode=teal') {
+    if (document.cookie == 'colormode=teal') { //if cookie stored is for teal mode
         document.getElementById('sun-moon').classList.add('has-text-dark');
         document.getElementById('html-background').classList.add('has-teal-bkg');
         document.getElementById('sun-moon').classList.add('fa-moon');
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         Array.from(icons).forEach(i => {
             i.classList.add('has-text-dark');
         });
-    } else if (document.cookie == 'colormode=dark') {
+    } else if (document.cookie == 'colormode=dark') { //if cookie stored is for dark mode
         document.getElementById('sun-moon').classList.add('has-text-teal');
         document.getElementById('html-background').classList.add('has-dark-bkg');
         document.getElementById('sun-moon').classList.add('fa-sun');
@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', async function () {
         Array.from(icons).forEach(i => {
             i.classList.add('has-text-teal');
         });
-    } else {
+    } else { // if no cookie is stored
         document.getElementById('sun-moon').classList.add('has-text-dark');
         document.getElementById('html-background').classList.add('has-teal-bkg');
-        document.getElementById('sun-moon').classList.replace('fa-moon');
+        document.getElementById('sun-moon').classList.add('fa-moon');
 
         let titles = document.getElementsByClassName('title');
         Array.from(titles).forEach(i => {
