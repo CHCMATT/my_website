@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         Array.from(icons).forEach(i => {
             i.classList.add('has-text-dark');
         });
-        document.cookie = 'colormode=teal; samesite=strict; expires=Wed, 01 Jan 2025 05:00:00 GMT;';
+        document.cookie = 'colormode=teal; samesite=strict; expires=Wed, 01 Jan 2030 05:00:00 GMT;';
     }
 });
 
@@ -80,7 +80,7 @@ function toggleLightDark() {
         Array.from(icons).forEach(i => {
             i.classList.replace('has-text-dark', 'has-text-teal');
         });
-        document.cookie = 'colormode=dark; samesite=strict; expires=Wed, 01 Jan 2025 05:00:00 GMT;';
+        document.cookie = 'colormode=dark; samesite=strict; expires=Wed, 01 Jan 2030 05:00:00 GMT;';
     }
     else if (document.cookie == 'colormode=dark') {
         document.getElementById('sun-moon').classList.replace('has-text-teal', 'has-text-dark');
@@ -101,6 +101,6 @@ function toggleLightDark() {
         Array.from(icons).forEach(i => {
             i.classList.replace('has-text-teal', 'has-text-dark');
         });
-        document.cookie = 'colormode=teal; samesite=strict; expires=Wed, 01 Jan 2025 05:00:00 GMT;';
+        document.cookie = 'colormode=teal; samesite=strict; expires=Wed, 01 Jan 2030 05:00:00 GMT;';
     }
 }
